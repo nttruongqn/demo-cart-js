@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color:#ff8000;
+}
+
+body,input,select,textarea{
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
+
+.grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+
+.grid-column-7-12{
+  width: 70%;
+}
+
+
+.grid-column-3-12{
+  width: 30%;
+}
+
+.grid-column-4-7{
+  width: 25%;
+}
+
+
+

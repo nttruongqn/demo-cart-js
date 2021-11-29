@@ -1,0 +1,48 @@
+.modal-close{
+    margin-bottom: 10px;
+    position: absolute;
+    top:5px;
+    right: 10px;
+}
+
+.product-details-container{
+    padding:30px;
+
+    .product-detail-main{
+        padding:10px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .product-detail-img{
+            width: 30%;
+            img {
+                width: 90%;
+            }
+        }
+
+        .product-detail-descriptions{
+            width: 70%;
+
+            .btn-size{
+                border: none;
+                outline: none;
+                padding:5px;
+                cursor: pointer;
+            }
+            .btn-size:first-child{
+                margin-right: 2px;
+            }
+
+            .product-price-p{
+                .btn-p{
+                    border: none;
+                    outline: none;
+                    padding:5px;
+                    cursor:pointer;
+                }
+            }
+            
+        }
+    }
+}
+
