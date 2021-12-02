@@ -15,7 +15,7 @@ class Product extends Component {
     super(props);
     this.state = {
       product: null,
-      // productData: []
+   
     };
   }
 
@@ -46,7 +46,7 @@ class Product extends Component {
   
     let { handleAddToCart,products } = this.props;
 
-    console.log("check props by redux", this.props);
+    // console.log("check props by redux", this.props);
     return (
       <>
         <Fade bottom cascade>

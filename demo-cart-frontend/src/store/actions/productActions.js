@@ -23,3 +23,14 @@ export const fetchAllProduct = () => {
     }
   };
 };
+
+
+export const filterProducts = (products, size) => (dispatch) => {
+  dispatch({
+    type: actionType.FILTER_PRODUCTS_BY_SIZE,
+    payload: {
+      size: size,
+      items: size = "" ? products : products.filter((x)=> x.size.indexOf(size)>0)
+    }
+  })
+}
